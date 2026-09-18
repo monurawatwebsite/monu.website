@@ -1,0 +1,119 @@
+*{
+margin: 0%;
+}
+body{
+    background-color: #EFFFFD;
+    margin: 0;
+    text-align: center;
+    font-family: serif;
+    font-size: 2rem;
+    color: black;
+}
+ header{
+    color: red;
+    font-size: 44px;
+    background-image: url(../image/spirituality.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 490px;
+ }
+
+ /* ==============================main==================== */
+
+ .sec1{
+    height: 10rem;
+    width: 10rem;
+    position: fixed;
+    top: 79px;
+    left: 35px;
+    border-radius: 50%;
+}
+
+.profile{
+    height: 20rem;
+    width: 20rem;
+    margin-top: 74px;
+    left: 419px;
+    border-radius: 50%;
+}
+
+.heading h2{
+    color:green;
+    font-size: 48px;
+    text-align: center;
+}
+.heading p{
+    width: 91%;
+    margin: 30px auto 1rem auto;
+    line-height: 1.5;
+}
+
+hr{
+    border-style: dotted none none none;
+    width: 25%;
+    border-width: 10px;
+}
+
+.image1{
+    width: 281px;
+    float: left;
+    margin-right: 60px;
+}
+
+.image2{
+    height: 10em;
+    width: 10em;
+    float: right;
+    margin-right: 30px;
+    border-radius: 100%;
+}
+   
+.design{
+        width: 80%;
+    text-align: center;
+    font-family: Dancing Script, cursive;
+    margin: 1rem auto;
+}
+
+.button{
+ margin:1rem;
+    background: #3D94F6;
+    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Brush Script MT;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* =======================footer===================== */
+
+footer{
+background-color: aqua;
+text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 107%;
+}
+footer p{
+    font-size: 26px;
+    padding: 1rem;
+}
